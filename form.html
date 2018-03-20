@@ -1,0 +1,188 @@
+<!DOCTYPE html >
+<html >
+<head>
+<title>Sign Up Form</title>
+
+<style>
+table
+{
+	background-color:rgba(0,0,0,0.3);
+}
+table, th, td
+{
+	
+	opacity: 0.5px;
+	color:#FFF;
+	padding:8px;
+}
+
+</style>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body background="sources/form_bkg.jpg">
+<br>
+
+<ul>
+  
+  <li style="margin-left:70px"><a href="index.html">HOME</a></li>
+  <li><a href="ABOUT.html">ABOUT</a></li>                                     <!-- not given yet -->
+  <li><a href="TOUR.html">TOUR</a></li>
+  <li><a href="UPDATES.html">UPDATES</a></li>
+  <li><a href="BLOG.html">BLOG</a></li>
+  
+  <li style="float:right; margin-right:40px;"><a class="active" href="form.html">SIGN UP</a></li>
+</ul>
+<form action="signup.php" method="POST" enctype="multipart/form-data">
+<h2 style="color:#FFF; margin-left:300px;">Sign Up</h2>
+<table align="center" cellpadding="3px" width="800px " >
+    	<tr>
+        	<th align="right" valign="top">Name :</th>
+            <td></td>
+         <td width="400" align="left"><input id="emal" placeholder="Enter Name.." type="text" name="name" >
+         </td>
+
+        <tr>
+        	<th align="right" valign="top">E-mail :</th><td></td>
+          <td width="400" align="left"><input  placeholder="Enter E-mail.." type="email" name="email" ></td>
+		</tr>
+    
+   		
+		<tr>
+        	<th align="right" valign="top">Place :</th><td></td>
+            <td width="400" align="left">
+            	<select name="place">
+                <option value="default">-sites-</option>
+                <option value="nahargarh">Nahargarh</option>
+                <option value="amer">Amer</option>
+                <option value="jaigarh">Jaigarh</option>
+                <option value="hawamahal">Hawa Mahal</option>
+                <option value="jalmahal">Jal Mahal</option>
+              </select>
+          </td>
+		</tr>
+    
+
+		<tr>
+			<th align="right" valign="top">Comment :</th><td></td>
+			<td width="400" align="left"><textarea placeholder="Enter Comment.." name="comment" rows="4" cols="21"></textarea></td>
+		</tr>
+		
+		<tr>
+			<th align="right" valign="top">Image :</th><td></td>
+			<td width="400" align="left"><input type="file" name="image"></td>
+		</tr>
+		
+		<tr>
+        	<th align="right" valign="top"></th><td></td>
+			<td width="400" align="left"><input type="checkbox"  name="confirm">I agree to the term of use</td>
+		</tr>
+  </table>
+<br>
+    <p align="right" style="margin-right:300px">
+	<input type="submit" value="SUBMIT" name="SUBMIT" style="background:#2020d6; color:#FFF; padding:5px; border-color:#2020d6 " ><!--onClick="validate()"-->
+    <input type="reset" value="RESET" style="background:#F33; color:#FFF; padding:5px; border-color:#F33">
+    </p>
+</form>
+<!--
+<script>
+function validate() {
+var naam=document.getElementById("emal").value;
+if(naam=="starboy") alert("not successfull");
+}
+</script>-->
+</body>
+</html><html >
+<head>
+<title>Sign Up Form</title>
+
+<style>
+table
+{
+	background-color:rgba(0,0,0,0.3);
+}
+table, th, td
+{
+	
+	opacity: 0.5px;
+	color:#FFF;
+	padding:8px;
+}
+
+</style>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body background="sources/form_bkg.jpg">
+<br>
+
+<ul>
+  
+  <li style="margin-left:70px"><a href="home.html">HOME</a></li>
+  <li><a href="ABOUT.html">ABOUT</a></li>                                     <!-- not given yet -->
+  <li><a href="TOUR.html">TOUR</a></li>
+  <li><a href="UPDATES.html">UPDATES</a></li>
+  <li><a href="BLOG.html">BLOG</a></li>
+  
+  <li style="float:right; margin-right:40px;"><a class="active" href="form.html">SIGN UP</a></li>
+</ul>
+<form action="signup.php" method="POST" enctype="multipart/form-data">
+<h2 style="color:#FFF; margin-left:300px;">Sign Up</h2>
+<table align="center" cellpadding="3px" width="800px " >
+    	<tr>
+        	<th align="right" valign="top">Name :</th>
+            <td></td>
+         <td width="400" align="left"><input id="emal" placeholder="Enter Name.." type="text" name="name" >
+         </td>
+
+        <tr>
+        	<th align="right" valign="top">E-mail :</th><td></td>
+          <td width="400" align="left"><input  placeholder="Enter E-mail.." type="email" name="email" ></td>
+		</tr>
+    
+   		
+		<tr>
+        	<th align="right" valign="top">Place :</th><td></td>
+            <td width="400" align="left">
+            	<select name="place">
+                <option value="default">-sites-</option>
+                <option value="nahargarh">Nahargarh</option>
+                <option value="amer">Amer</option>
+                <option value="jaigarh">Jaigarh</option>
+                <option value="hawamahal">Hawa Mahal</option>
+                <option value="jalmahal">Jal Mahal</option>
+              </select>
+          </td>
+		</tr>
+    
+
+		<tr>
+			<th align="right" valign="top">Comment :</th><td></td>
+			<td width="400" align="left"><textarea placeholder="Enter Comment.." name="comment" rows="4" cols="21"></textarea></td>
+		</tr>
+		
+		<tr>
+			<th align="right" valign="top">Image :</th><td></td>
+			<td width="400" align="left"><input type="file" name="image"></td>
+		</tr>
+		
+		<tr>
+        	<th align="right" valign="top"></th><td></td>
+			<td width="400" align="left"><input type="checkbox"  name="confirm">I agree to the term of use</td>
+		</tr>
+  </table>
+<br>
+    <p align="right" style="margin-right:300px">
+	<input type="submit" value="SUBMIT" name="SUBMIT" style="background:#2020d6; color:#FFF; padding:5px; border-color:#2020d6 " ><!--onClick="validate()"-->
+    <input type="reset" value="RESET" style="background:#F33; color:#FFF; padding:5px; border-color:#F33">
+    </p>
+</form>
+<!--
+<script>
+function validate() {
+var naam=document.getElementById("emal").value;
+if(naam=="starboy") alert("not successfull");
+}
+</script>-->
+</body>
+</html>

@@ -1,0 +1,56 @@
+
+
+ @font-face 
+ {
+    font-family: myfont;
+    src: url(fonts/Montserrat-Thin.otf);
+ }
+ 
+ @font-face 
+ {
+    font-family: myfont;
+    src: url(fonts/Montserrat-ExtraBold.otf);
+	font-weight: bold;
+ }
+ 
+  
+ @font-face
+ {
+	 font-family: hindi;
+	 src: url(fonts/hindi.ttf);             /*add font full address*/
+ }
+ body
+ {	background-attachment: fixed; 
+ 	background-size: 100%;
+ 	font-family: myfont;
+	color:#FFF
+ }
+ 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.35);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #CCC;
+	
+}
+
+.active {
+    background-color: #006;
+}
